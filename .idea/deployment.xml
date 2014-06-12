@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Remote - myProject">
+    <serverData>
+      <paths name="PHP-laravel Local">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/PHPLarivel" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Remote - myProject">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/students/guy" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

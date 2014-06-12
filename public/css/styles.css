@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext);
+
+/* master blade*/
+.submitButton{
+    border-radius: 5px;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Bitter', serif;
+}
+/*
+#DD,#DDA, #DDB{
+    color: #ffffff;
+    background-color: gray;
+    background-color: rgba(0,0,0,0.6) !important;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 3px;
+    padding: 6px;
+
+}
+#DDA{
+    background-color: gray;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+#DDB{
+    background-color: gray;
+    background-color: rgba(0,0,0,0.4) !important;}
+*/
+.social{
+    width: 20px;
+    margin: 10px 20px;
+    float: left;
+}
+#socialA{
+    margin-left: 80px;
+}
+.foundicon-twitter{
+    width: 20px;
+}
+#img, #imgLogo{
+    display: none;
+
+}
+.cycle-slideshow{
+    z-index: 1 !important;
+
+}
+.straitLogo{
+    height: 40px;
+}
+.miniLogo{
+    height: 40px;
+}
+.contain-to-grid{
+                     background-color: rgba(0,0,0,0.7) !important;
+                 }
+#opTop{
+    background-color: rgba(0,0,0,0.0) !important;
+}.top-bar{
+     background-color: rgba(0,0,0,0.7) !important;
+ }
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+
+    background: none repeat scroll 0% 0% #666666;
+}
+.shop{
+    width: 28px;
+}
+/*
+#blueNav{
+    background-color: #003399;
+}
+reserved if a shopping cart is added later.
+*/
+fieldset{
+     border: 2px solid gray;
+ }
+/*home page*/
+.HomeProd{
+    width: 100%;
+}
+/* about page*/
+.BIg{
+    width: 100%;
+}
+/* charities page */
+/* families page */
+/* design page */
+.DesNav a, .AboutNav a{
+                     font-size: 24px;
+                     font-family: 'Bitter', serif;
+                 }
+
+.filterD{
+    float: left;
+}
+/*products page */
+.button{
+    padding: 4px;
+    font-size: 16px;
+    background-color: #798286;
+    border-color: #798286;
+    border-radius: 2px;
+    margin-left: 40px;
+    font-family: 'Bitter', serif;
+}
+.has-dropdown{
+    width:100%;
+}
+.panel .text-large{
+    font-size: 14px;
+}
+select{
+    background-color: #fbfbf2;
+    border-radius: 5px;
+
+}
+.noMargin{
+    margin:2px 0 5px 0;
+    padding:0;
+}
+
+#productNav{
+    border-radius: 4px;
+}
+#choose{
+    color: #000000;
+    background-color: #cccccc;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    float: left;
+    margin: 5px 0 0 0;
+
+
+}
+/* faq */
+.faqParagraph{
+    font-size: 24px;
+}
+/* contact */
+#contact-form{
+    margin: 20px;
+}
+#submitButtonID{
+    padding: 10px;
+    font-size: 16px;
+}
+.contactParagraph{
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    color: #798286;
+
+}
+/* every page */
+a{
+    color: #798286;
+
+}
+
+.panel{
+    background-color: #fbfbf2
+;
+
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+    font-size: 1.0rem;
+}
+
+
+i{
+   color: #798286;
+
+}
+
+.panel p, .panel h1, .panel h2, .panel h3, .panel h4{
+    color: #798286;
+    font-family: 'Bitter', serif;
+
+}
+.panel p{
+    font-size: 12px;
+}
+body{
+    background-image: url('../img/background/background2.jpg');
+}
+
+.slide{
+    width: 100%;
+}
+.panel{
+    border-radius: 5px;
+}
+h1, h2, h3, h4, p{
+    margin: 20px;
+    margin-left: 20px;
+    color: #798286;
+    font-family: 'Bitter', serif;
+}
+
+
+.panel .caption{
+    font-size: 12px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+
+background:gray;
+    opacity: 0.8;
+}
+
+.top-bar-section ul li.active>a{
+    background:gray;
+}
+
+
+@media (min-width: 750px) {
+    .social{
+
+        float: none;
+    }
+    #choose{
+    margin: 0 0 1px 0;
+        height: 30px;
+    }
+    #socialA{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    #img, #imgLogo{
+        display: block;
+        width: 180px;
+        margin-left: 25px;
+        float: left;
+    }
+    /*
+    #DD,#DDA, #DDB{
+         display: none;
+     }*/
+    .panel p{
+          font-size: 14px;
+      }
+}
+
+
+@media (min-width: 960px) {
+    .panel p{
+        font-size: 15px;
+    }
+}

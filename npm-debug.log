@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'mcrypt' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'mcrypt', null ]
+5 verbose cache add name=undefined spec="mcrypt" args=["mcrypt",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'mcrypt',
+6 verbose parsed url   path: 'mcrypt',
+6 verbose parsed url   href: 'mcrypt' }
+7 silly lockFile cad908e5-mcrypt mcrypt
+8 verbose lock mcrypt /Users/designstudio_2/.npm/cad908e5-mcrypt.lock
+9 silly lockFile cad908e5-mcrypt mcrypt
+10 silly lockFile cad908e5-mcrypt mcrypt
+11 verbose addNamed [ 'mcrypt', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 893ef481-mcrypt mcrypt@
+14 verbose lock mcrypt@ /Users/designstudio_2/.npm/893ef481-mcrypt.lock
+15 silly addNameRange { name: 'mcrypt', range: '*', hasData: false }
+16 verbose url raw mcrypt
+17 verbose url resolving [ 'https://registry.npmjs.org/', './mcrypt' ]
+18 verbose url resolved https://registry.npmjs.org/mcrypt
+19 info trying registry request attempt 1 at 13:55:06
+20 http GET https://registry.npmjs.org/mcrypt
+21 http 200 https://registry.npmjs.org/mcrypt
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 29 Apr 2014 12:55:06 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"A5K1GBH4NHR746IP5A35252NN"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '15404',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '7575',
+22 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-lcy1133-LCY',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1398776106.623901844,VS0,VS38,VE113,VE153',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'mcrypt', range: '*', hasData: true }
+24 silly addNameRange versions [ 'mcrypt',
+24 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
+25 verbose addNamed [ 'mcrypt', '0.0.7' ]
+26 verbose addNamed [ '0.0.7', '0.0.7' ]
+27 silly lockFile 474bd8a8-mcrypt-0-0-7 mcrypt@0.0.7
+28 verbose lock mcrypt@0.0.7 /Users/designstudio_2/.npm/474bd8a8-mcrypt-0-0-7.lock
+29 silly lockFile a8e3374a-pmjs-org-mcrypt-mcrypt-0-0-7-tgz https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz
+30 verbose lock https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz /Users/designstudio_2/.npm/a8e3374a-pmjs-org-mcrypt-mcrypt-0-0-7-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz',
+31 verbose addRemoteTarball   '30e1e7ab183bc0d3135d4f8a22176b58138f52ac' ]
+32 info retry fetch attempt 1 at 13:55:06
+33 verbose fetch to= /Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz
+34 http GET https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz
+35 http 200 https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz
+36 verbose tar unpack /Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz
+37 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+38 verbose lock tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package /Users/designstudio_2/.npm/fc1e6949-06292-0-4081187027040869-package.lock
+39 silly lockFile c71843c1-06292-0-4081187027040869-tmp-tgz tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz
+40 verbose lock tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz /Users/designstudio_2/.npm/c71843c1-06292-0-4081187027040869-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry binding.gyp
+47 silly gunzTarPerm extractEntry src/mcrypt.cc
+48 silly gunzTarPerm extractEntry src/mcrypt.h
+49 silly gunzTarPerm extractEntry test/test.js
+50 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+51 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+52 silly lockFile c71843c1-06292-0-4081187027040869-tmp-tgz tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz
+53 silly lockFile c71843c1-06292-0-4081187027040869-tmp-tgz tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/tmp.tgz
+54 verbose tar pack [ '/Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz',
+54 verbose tar pack   '/Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package' ]
+55 verbose tarball /Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+56 verbose folder /Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+57 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+58 verbose lock tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package /Users/designstudio_2/.npm/fc1e6949-06292-0-4081187027040869-package.lock
+59 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+60 verbose lock tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz /Users/designstudio_2/.npm/4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz.lock
+61 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+62 silly lockFile fc1e6949-06292-0-4081187027040869-package tar:///Users/designstudio_2/tmp/npm-864-ltfSiuTl/1398776106292-0.4081187027040869/package
+63 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+64 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+65 silly lockFile ced4dce8-tudio-2-npm-mcrypt-0-0-7-package /Users/designstudio_2/.npm/mcrypt/0.0.7/package
+66 verbose lock /Users/designstudio_2/.npm/mcrypt/0.0.7/package /Users/designstudio_2/.npm/ced4dce8-tudio-2-npm-mcrypt-0-0-7-package.lock
+67 silly lockFile ced4dce8-tudio-2-npm-mcrypt-0-0-7-package /Users/designstudio_2/.npm/mcrypt/0.0.7/package
+68 silly lockFile ced4dce8-tudio-2-npm-mcrypt-0-0-7-package /Users/designstudio_2/.npm/mcrypt/0.0.7/package
+69 verbose tar unpack /Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+70 silly lockFile 80c4e2ba-tudio-2-npm-mcrypt-0-0-7-package tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package
+71 verbose lock tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package /Users/designstudio_2/.npm/80c4e2ba-tudio-2-npm-mcrypt-0-0-7-package.lock
+72 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+73 verbose lock tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz /Users/designstudio_2/.npm/4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .npmignore
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry LICENSE
+79 silly gunzTarPerm extractEntry binding.gyp
+80 silly gunzTarPerm extractEntry src/mcrypt.cc
+81 silly gunzTarPerm extractEntry src/mcrypt.h
+82 silly gunzTarPerm extractEntry test/test.js
+83 silly lockFile 80c4e2ba-tudio-2-npm-mcrypt-0-0-7-package tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package
+84 silly lockFile 80c4e2ba-tudio-2-npm-mcrypt-0-0-7-package tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package
+85 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+86 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+87 verbose chmod /Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz 644
+88 verbose chown /Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz [ 0, 20 ]
+89 silly lockFile a8e3374a-pmjs-org-mcrypt-mcrypt-0-0-7-tgz https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz
+90 silly lockFile a8e3374a-pmjs-org-mcrypt-mcrypt-0-0-7-tgz https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz
+91 silly lockFile 474bd8a8-mcrypt-0-0-7 mcrypt@0.0.7
+92 silly lockFile 474bd8a8-mcrypt-0-0-7 mcrypt@0.0.7
+93 silly lockFile 893ef481-mcrypt mcrypt@
+94 silly lockFile 893ef481-mcrypt mcrypt@
+95 silly resolved [ { name: 'mcrypt',
+95 silly resolved     version: '0.0.7',
+95 silly resolved     description: 'MCrypt bindings',
+95 silly resolved     keywords: [ 'mcrypt', 'crypto' ],
+95 silly resolved     homepage: 'https://github.com/tugrul/node-mcrypt',
+95 silly resolved     author: { name: 'Tuğrul Topuz', email: 'tugrultopuz@gmail.com' },
+95 silly resolved     bugs: { url: 'https://github.com/tugrul/node-mcrypt/issues' },
+95 silly resolved     license: 'MIT',
+95 silly resolved     repository:
+95 silly resolved      { type: 'git',
+95 silly resolved        url: 'https://github.com/tugrul/node-mcrypt.git' },
+95 silly resolved     scripts:
+95 silly resolved      { install: 'node-gyp rebuild --release',
+95 silly resolved        preuninstall: 'rm -rf build/*' },
+95 silly resolved     engines: { node: '>=0.8.0' },
+95 silly resolved     devDependencies: { 'node-gyp': '*' },
+95 silly resolved     main: './build/Release/mcrypt',
+95 silly resolved     readme: '# node-mcrypt\n\nMCrypt bindings for Node.js\n\n## Dependencies\n\n```\napt-get install libmcrypt4 libmcrypt-dev\n```\n\n## Install\n\n```\nnpm install mcrypt\n```\n\n## Introduction\n\nAlright! There is already OpenSSL extension bundled with Node.js but there are something wrong with some traditional encryption algorithms on OpenSSL.\n\nI tried to decrypt ciphertext of AES and DES algorithms using OpenSSL but i get the garbage outputs. There are some reasons with OpenSSL like null padding.\n\nAlso i saw same issues on the stackoverflow.com. Some people encountered with same problems.\n\nThis extension provide the cipher and decipher operations via `libmcrypt` and compatible with Java Crypto and PHP MCrypt consequently.\n\nYou should start with import the package like\n\n```javascript\nvar mcrypt = require(\'mcrypt\');\n```\n\nThere are 3 exposed common functions on the package\n\n### getAlgorithmNames([path]) : Array\n\n`getAlgorithmNames()` returns an array that contains available algorithm names. `path` parameter to specify special algorithm directory. `path` parameter is not required.\n\n```javascript\nvar mcrypt = require(\'mcrypt\');\n\nvar algos = mcrypt.getAlgorithmNames();\nconsole.log(algos);\n```\n\nExpected result like that\n\n```\n[ \'cast-128\', \'gost\', \'rijndael-128\', \'twofish\', \'arcfour\', \'cast-256\', \'loki97\', \'rijndael-192\', \'saferplus\', \'wake\', \'blowfish-compat\', \'des\', \'rijndael-256\', \'serpent\', \'xtea\', \'blowfish\', \'enigma\', \'rc2\', \'tripledes\' ]\n```\n\n### getModeNames([path]) : Array\n\n`getModeNames()` returns an array that contains available mode names. `path` parameter to specify special mode directory. `path` parameter is not required.\n\n```javascript\nvar mcrypt = require(\'mcrypt\');\n\nvar algos = mcrypt.getModeNames();\nconsole.log(algos);\n```\n\nExpected result like that\n```\n[ \'cbc\', \'cfb\', \'ctr\', \'ecb\', \'ncfb\', \'nofb\', \'ofb\', \'stream\' ]\n```\n\n### MCrypt(algorithm, mode [, algorithmDir] [, modeDir]) : Object\n\n`MCrypt(algorithm, mode)` is a constructor function to create object for cipher and decipher operations. \n`algorithm` is a required parameter and one of the values of array returned by `getAlgorithmNames()`. \n`mode` is required parameter and one of the values of array returned by `getModeNames()`.\n`algorithmDir` and `modeDir` are optional parameters to specify algorithm and mode directories.\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar desEcb = new MCrypt(\'des\', \'ecb\');\n```\n\nThere are some prototype functions to make cipher decipher operations and to identify algorithm properties.\n\n#### open(key [, iv])\n\nWe are need to `open()` with a key for `decrypt()` and `encrypt()` operations also we should set an iv if required by algorithm in other case `iv` is optional parameter.\n`key` and `iv` should be string or Buffer\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar desEcb = new MCrypt(\'des\', \'ecb\');\ndesEcb.open(\'madepass\'); // we are set the key\n```\n\n#### encrypt(plaintext) : Buffer\n\n`encrypt()` returns a Buffer object that contains ciphertext of `plaintext` parameter. `plaintext` parameter should be `string` or `Buffer`\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar desEcb = new MCrypt(\'des\', \'ecb\');\ndesEcb.open(\'madepass\'); // we are set the key\n\nvar ciphertext = desEcb.encrypt(\'this is top secret message!\');\nconsole.log(ciphertext.toString(\'base64\'));\n```\n\nExpected result like that\n\n```\nfkJnIgtiH8nsGDryyuIsmyf5vABMGStlpACfKCTifvA=\n```\n\n#### decrypt(ciphertext) : Buffer\n\n`decrypt()` returns a Buffer object that contains plaintext of `ciphertext` parameter. `ciphertext` parameter should be `Buffer`\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar desEcb = new MCrypt(\'des\', \'ecb\');\ndesEcb.open(\'madepass\'); // we are set the key\n\nvar plaintext = desEcb.decrypt(new Buffer(\'fkJnIgtiH8nsGDryyuIsmyf5vABMGStlpACfKCTifvA=\', \'base64\'));\nconsole.log(plaintext.toString());\n```\n\nExpected result like that\n\n```\nthis is top secret message!\n```\n\n#### generateIv() : Buffer\n\n`generateIv()` function generates IV randomly.\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nvar iv = blowfishCfb.generateIv();\n\nblowfishCfb.open(\'somekey\', iv);\n\nvar ciphertext = blowfishCfb.encrypt(\'sometext\');\n\nconsole.log(Buffer.concat([iv, ciphertext]).toString(\'base64\'));\n```\n\n#### validateKeySize(Boolean)\n`validateKeySize()` is a function to disable or enable key size validation on `open()`\n\n```javascript\nvar mc = new MCrypt(\'blowfish\', \'ecb\');\nmc.validateKeySize(false); // disable key size checking\nmc.open(\'typeconfig.sys^_-\');\n```\n\n#### validateIvSize(Boolean)\n`validateIvSize()` is a function to disable or enable iv size validation on `open()`\n\n```javascript\nvar mc = new MCrypt(\'rijndael-256\', \'cbc\');\nmc.validateIvSize(false); // disable iv size checking\nmc.open(\'$verysec$retkey$\', \'foobar\');\n```\n\n#### selfTest() : Boolean\n\n`selfTest()` is an utility function to make test algorithm internally and returns boolean value of status\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.selfTest());\n```\n\n#### isBlockAlgorithmMode() : Boolean\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.isBlockAlgorithmMode());\n```\n\n#### isBlockAlgorithm() : Boolean\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.isBlockAlgorithm());\n```\n\n#### isBlockMode() : Boolean\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.isBlockMode());\n```\n\n#### getBlockSize() : Number\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getBlockSize());\n```\n\n#### getKeySize() : Number\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getKeySize());\n```\n\n#### getSupportedKeySizes() : Array\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getSupportedKeySizes());\n```\n\n#### getIvSize() : Number\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getIvSize());\n```\n\n#### hasIv() : Boolean\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.hasIv());\n```\n\n#### getAlgorithmName() : String\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getAlgorithmName());\n```\n\n#### getModeName() : String\n\n```javascript\nvar MCrypt = require(\'mcrypt\').MCrypt;\n\nvar blowfishCfb = new MCrypt(\'blowfish\', \'cfb\');\nconsole.log(blowfishCfb.getModeName());\n```\n\n',
+95 silly resolved     readmeFilename: 'README.md',
+95 silly resolved     _id: 'mcrypt@0.0.7',
+95 silly resolved     dist: { shasum: '791ab88d31bdeeac43805b92218f5c865899f692' },
+95 silly resolved     _from: 'mcrypt@',
+95 silly resolved     _resolved: 'https://registry.npmjs.org/mcrypt/-/mcrypt-0.0.7.tgz' } ]
+96 info install mcrypt@0.0.7 into /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel
+97 info installOne mcrypt@0.0.7
+98 info /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt unbuild
+99 verbose tar unpack /Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+100 silly lockFile 426eea79-s-PHPLarivel-node-modules-mcrypt tar:///Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt
+101 verbose lock tar:///Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt /Users/designstudio_2/.npm/426eea79-s-PHPLarivel-node-modules-mcrypt.lock
+102 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+103 verbose lock tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz /Users/designstudio_2/.npm/4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm extractEntry package.json
+106 silly gunzTarPerm extractEntry .npmignore
+107 silly gunzTarPerm extractEntry README.md
+108 silly gunzTarPerm extractEntry LICENSE
+109 silly gunzTarPerm extractEntry binding.gyp
+110 silly gunzTarPerm extractEntry src/mcrypt.cc
+111 silly gunzTarPerm extractEntry src/mcrypt.h
+112 silly gunzTarPerm extractEntry test/test.js
+113 silly lockFile 426eea79-s-PHPLarivel-node-modules-mcrypt tar:///Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt
+114 silly lockFile 426eea79-s-PHPLarivel-node-modules-mcrypt tar:///Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt
+115 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+116 silly lockFile 4bd3d8c3-o-2-npm-mcrypt-0-0-7-package-tgz tar:///Users/designstudio_2/.npm/mcrypt/0.0.7/package.tgz
+117 info preinstall mcrypt@0.0.7
+118 verbose readDependencies using package.json deps
+119 verbose readDependencies using package.json deps
+120 silly resolved []
+121 verbose about to build /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt
+122 info build /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt
+123 verbose linkStuff [ false,
+123 verbose linkStuff   false,
+123 verbose linkStuff   false,
+123 verbose linkStuff   '/Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules' ]
+124 info linkStuff mcrypt@0.0.7
+125 verbose linkBins mcrypt@0.0.7
+126 verbose linkMans mcrypt@0.0.7
+127 verbose rebuildBundles mcrypt@0.0.7
+128 info install mcrypt@0.0.7
+129 verbose unsafe-perm in lifecycle false
+130 info mcrypt@0.0.7 Failed to exec install script
+131 info /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules/mcrypt unbuild
+132 info preuninstall mcrypt@0.0.7
+133 verbose unsafe-perm in lifecycle false
+134 info uninstall mcrypt@0.0.7
+135 verbose true,/Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules,/Applications/XAMPP/xamppfiles/htdocs/PHPLarivel/node_modules unbuild mcrypt@0.0.7
+136 info postuninstall mcrypt@0.0.7
+137 error mcrypt@0.0.7 install: `node-gyp rebuild --release`
+137 error Exit status 1
+138 error Failed at the mcrypt@0.0.7 install script.
+138 error This is most likely a problem with the mcrypt package,
+138 error not with npm itself.
+138 error Tell the author that this fails on your system:
+138 error     node-gyp rebuild --release
+138 error You can get their info via:
+138 error     npm owner ls mcrypt
+138 error There is likely additional logging output above.
+139 error System Darwin 11.4.2
+140 error command "node" "/usr/local/bin/npm" "install" "mcrypt"
+141 error cwd /Applications/XAMPP/xamppfiles/htdocs/PHPLarivel
+142 error node -v v0.10.26
+143 error npm -v 1.4.3
+144 error code ELIFECYCLE
+145 verbose exit [ 1, true ]
