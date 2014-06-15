@@ -83,7 +83,7 @@ Welcome to Bugz &amp; Beastiez
 
 </div>
 <div class="large-3 medium-3 small-6 columns panel">
-    <a href="index.php/comingSoon">
+    <a href="./comingSoon">
         <h4>Tableware</h4>
         <div class="cycle-slideshow">
             <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
@@ -95,7 +95,7 @@ Welcome to Bugz &amp; Beastiez
 
 </div>
 <div class="large-3 medium-3 small-6 columns panel">
-    <a href="index.php/comingSoon">
+    <a href="./comingSoon">
     <h4>For Artists</h4>
 
         <div class="cycle-slideshow">
@@ -110,7 +110,7 @@ Welcome to Bugz &amp; Beastiez
 </div>
 
         <div class="large-3 medium-3 small-6 columns panel">
-            <a href="index.php/comingSoon">
+            <a href="./comingSoon">
                 <h4>Canvas</h4>
                 <div class="cycle-slideshow">
                     <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />

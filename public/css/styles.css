@@ -88,6 +88,9 @@ fieldset{
     width: 100%;
 }
 /* charities page */
+#linksHeaderCharities, .linksParagraphCharities{
+    margin-bottom: 0;
+}
 /* families page */
 /* design page */
 .DesNav a, .AboutNav a{
@@ -99,6 +102,15 @@ fieldset{
     float: left;
 }
 /*products page */
+#ceramicsImg{
+    height: 50px;
+    margin-left: 2px;
+    position: absolute;
+    top: -4px;
+}
+#hideFilter{
+   display: none;
+}
 .button{
     padding: 4px;
     font-size: 16px;
@@ -108,9 +120,9 @@ fieldset{
     margin-left: 40px;
     font-family: 'Bitter', serif;
 }
-.has-dropdown{
+/*.has-dropdown{
     width:100%;
-}
+}*/
 .panel .text-large{
     font-size: 14px;
 }
@@ -220,6 +232,12 @@ background:gray;
 
 
 @media (min-width: 750px) {
+    #ceramicsImg{
+        height: 65px;
+        margin-left: 25px;
+        position: absolute;
+        top: -10px;
+    }
     .social{
 
         float: none;
@@ -251,5 +269,12 @@ background:gray;
 @media (min-width: 960px) {
     .panel p{
         font-size: 15px;
+    }
+    /* products page */
+    #ceramicsImg{
+        height: 65px;
+        margin-left: 25px;
+position: absolute;
+        top: -10px;
     }
 }

@@ -24,7 +24,27 @@ Route::get('/products', function()
 
 Route::get('/contact', function()
 {
-    return View::make('contact');
+    if(isset($_GET['name'])){
+        $fromEmail = Input::get('email');
+        $fromName = 'Bugz &amp; Beastiez';
+        $subject = 'Web Site Feedback';
+        $data = [ 'msg' => Input::get('comment'), 'name' => Input::get('name')];
+        $toEmail = 'paul@arrow-media.co.uk';
+        $toName = 'Guy Campbell';
+
+        Mail::send('emails.contact', $data, function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject)
+        {
+            $message->to($toEmail, $toName);
+            $message->from($fromEmail, $fromName);
+            $message->subject($subject);
+
+        });
+        $feedback = 'Thank you for your email';
+        return View::make('contact')->with('feedback',$feedback);
+    }else{
+        return View::make('contact');
+    }
+
 });
 
 Route::get('/', function()
@@ -112,25 +132,6 @@ Route::get('/comingSoon', function()
     return View::make('comingSoon');
 });
 
-Route::post('contact',function(){
-    $fromEmail = Input::get('email');
-    $fromName = 'Bugz &amp; Beastiez';
-    $subject = 'Web Site Feedback';
-
-    $data = [ 'msg' => Input::get('comment'), 'name' => Input::get('name')];
-    $toEmail = 'gjfc50@yahoo.co.uk';
-    $toName = 'Guy Campbell';
-
-    Mail::send('emails.contact', $data, function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject)
-    {
-        $message->to($toEmail, $toName);
-        $message->from($fromEmail, $fromName);
-        $message->subject($subject);
-
-    });
-    $feedback = 'Thank you for your email';
-    return View::make('contact')->with('feedback',$feedback);
-});
 
 
 

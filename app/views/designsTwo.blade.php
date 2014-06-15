@@ -46,7 +46,7 @@ Designs - Bugz
             <div class="row">
     <div class="large-6 medium-6 columns">
         <a class="single_image"  href="img/lightbox/Caterpillar-True.gif" title="The Caterpillar - Bugz Collection.">
-            <img src="img/thumbs/Caterpillarthumb2.gif" alt="caterpillar" />
+            <img src="img/thumbs/CaterpillarThumb2.gif" alt="caterpillar" />
         </a>
         <p>The Caterpillar</p></div>
     <div class="large-6 medium-6 columns">

@@ -3,16 +3,15 @@
     <html>
 
     <head>
-        <base href="http://localhost/PHPLarivel/public/">
         <meta charset="utf-8"/>
         <title>@yield('title')</title>
         <script src="js/vendor/modernizr.js"></script>
-        <link href="css/foundation.min.css" type="text/css" rel="stylesheet">
-        <link href="css/styles.css" type="text/css" rel="stylesheet">
-        <link href="buttons/foundation_icons_social/stylesheets/social_foundicons.css" type="text/css" rel="stylesheet">
-        <link href="buttons/foundation_icons_social/stylesheets/social_foundicons_ie7.css" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css">
-        <link href='http://fonts.googleapis.com/css?family=Bitter&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="css/foundation.min.css" type="text/css" rel="stylesheet"/>
+        <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+        <link href="buttons/foundation_icons_social/stylesheets/social_foundicons.css" type="text/css" rel="stylesheet"/>
+        <link href="buttons/foundation_icons_social/stylesheets/social_foundicons_ie7.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Bitter&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
 
 
 
@@ -35,13 +34,24 @@
             <section class="top-bar-section">
             <ul class="right">
 
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php/about">About</a></li>
-                <li><a href="index.php/productsHome">Products</a></li>
-                <li><a href="index.php/designs">Designs</a></li>
-                <li><a href="index.php/contact">Contact</a></li>
-                <li><a href="index.php/faq">FAQ</a></li>
-                <li><a href="index.php/terms">Terms</a></li>
+                <li><a href="./">Home</a></li>
+                <li><a href="about">About</a></li>
+
+
+                <li class="has-dropdown">
+                    <a href="#">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="productsHome">Ceramics</a></li>
+                        <li><a href="comingSoon">Tableware</a></li>
+                        <li><a href="comingSoon">For Artists</a></li>
+                        <li><a href="comingSoon">Cards &amp; Canvas</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="designs">Designs</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="faq">FAQ</a></li>
+                <li><a href="terms">Terms</a></li>
                  </ul>
 </section>
         </nav>
@@ -88,7 +98,7 @@
 
             <form action="./newsletter" method="get" name="newsLetter">
             <label for="email">Your Email Address:</label>
-            <input type="email" name="email" value="Type in your email here...">
+            <input type="email" name="email" placeholder="Type in your email here...">
                 <input class="submitButton" type="submit" value="Press to Subscribe" />
                 </form>
 
@@ -125,18 +135,6 @@
     <script src="js/scripts.js"></script>
     <script>
         $(document).foundation();
-    </script>
-    <script>
-    $(document).foundation({
-    orbit: {
-    animation: 'slide',
-    timer_speed: 5000,
-    pause_on_hover: true,
-    animation_speed: 500,
-    navigation_arrows: true,
-    bullets: false
-    }
-    });
     </script>
     <script src="js/plugins/cycle2/cycle2.js"></script>
     <script src="js/plugins/fancybox/jquery.fancybox.js"></script>

@@ -47,11 +47,26 @@ Charities
     <img src="img/orrangutan.jpg" alt="orrangutan" />
 </div>
 <div class="large-8 medium-8 columns">
-<p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
-    This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services
-    This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services</p>
+<p>We give 10% of all our revenue to a chosen charity to help protect the worlds creatures and forests.
+    We feel that we all must chip in to do our bit. Bugz &amp; Beastiez is a company that is inspired by the
+    work of environmental charities.</p>
+
+   <p> The Charities that we have chosen to support are: The Rainforest Alliance, The Born Free Foundation, and The Nature Conservancy. </p>
 </div>
 </div>
+    <h3 id="linksHeaderCharities">Links: </h3>
+    <div class="row">
+    <div class="large-4 large-pull-0 medium-4 medium-pull-0 small-push-2 columns">
+    <p class="linksParagraphCharities"><a href="http://www.rainforest-alliance.org">The Rainforest Alliance</a></p>
+    </div>
+        <div class="large-4 large-pull-0 medium-4 medium-pull-0 small-push-2 columns">
+            <p class="linksParagraphCharities"><a href="http://www.bornfree.org.uk">The Born Free Foundation</a></p>
+        </div>
+    <div class="large-4 large-pull-0 medium-4 medium-pull-0 small-push-2 columns">
+    <p class="linksParagraphCharities"><a href="http://www.nature.org">The Nature Conservancy</a></p>
+    </div>
+
+    </div>
     </div>
 @stop
 

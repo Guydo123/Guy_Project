@@ -46,7 +46,7 @@ Contact Us
 <h3>Call us on: 000000000000</h3>
 <h3>Email us on: bugz@beastiez.com</h3>
 
-<form action="./contact" method="post" id="contact-form">
+<form action="./contact" method="get" id="contact-form">
     <p>
         <label for="name" class="contactParagraph">Your Name:</label>
         <input type="text" id="name" name="name" required>

@@ -51,7 +51,7 @@ Family
     <div class="row">
 
     <div class="large-4 medium-4 columns">
-        <img src="img/family1.jpg" alt="family" />
+        <img src="img/ish.jpg" alt="ish" />
         <br>
     </div>
 
@@ -71,11 +71,11 @@ Family
 <div class="columns panel">
     <div class="row">
     <div class="large-4 medium-4 columns">
-        <img src="img/family1.jpg" alt="family" />
+        <img src="img/me.jpg" alt="guy" />
     </div>
     <div class="large-8 medium-8 columns">
         <h3>Guy - Graphic Designer &amp; Marketeer</h3>
-        <p>Guy Campbell - </p>
+        <p>Guy is the one who makes sure that our designs can get to you. He is responsible for the website and the graphic design as well as all of the marketing stuff. </p>
     </div>
         </div>
 </div>
@@ -85,11 +85,11 @@ Family
 <div class="columns panel">
         <div class="row">
     <div class="large-4 medium-4 columns">
-        <img src="img/family1.jpg" alt="family" />
+        <img src="img/hugh.jpg" alt="hugh" />
     </div>
     <div class="large-8 medium-8 columns">
         <h3>Hugh - Finance Manager</h3>
-        <p>Hugh is our very own mathematics genie who looks after and takes care of all ur finances.
+        <p>Hugh is our very own mathematics genie who looks after and takes care of all our finances.
             He is the one that makes sure our money goes to all the right places in the development and production of our products. </p>
     </div>
 </div>
@@ -100,7 +100,7 @@ Family
 <div class="columns panel">
 <div class="row">
     <div class="large-4 medium-4 columns">
-        <img src="img/family1.jpg" alt="family" />
+        <img src="img/isla.jpg" alt="isla" />
     </div>
     <div class="large-8 medium-8 columns">
         <h3>Isla - Social Media Manager</h3>

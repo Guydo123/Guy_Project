@@ -1,17 +1,20 @@
 @extends('layouts.master')
 
 @section('title')
-Procucts
+Procucts - Ceramics
 @stop
 @section('content')
 <br>
 <h1>Products</h1>
-<br>
 
 
 
-    <nav style="opacity: 0.8;" id="productNav" class="top-bar" data-topbar>
+
+    <nav style="opacity: 0.8; clear: both;" id="productNav" class="top-bar" data-topbar>
 <form action="./productsHome" method="get">
+    <div class="noMargin large-3 medium-3 small-3 columns">
+        <img id="ceramicsImg" src="img/bladeImg/ceramicsImg.gif" />
+    </div>
 
     <div class="noMargin large-3 medium-3 small-3 columns">
     <select name="id_category">
@@ -20,6 +23,9 @@ Procucts
         @endforeach
     </select>
     </div>
+
+
+
     <div class="noMargin large-3 medium-3 small-3 columns">
     <select name="style_id">
         @foreach($styles as $style)
@@ -28,16 +34,20 @@ Procucts
     </select>
         </div>
     <div class="noMargin large-3 medium-3 small-3 columns">
+
+        <button id="choose" name="submit">Choose</button>
+    </div>
+
+    <div id="hideFilter" class="noMargin large-3 medium-3 small-3 columns">
     <select name="type_id">
         @foreach($types as $type)
         <option value="{{ $type->type_id }}">{{ $type->type }}</option>
         @endforeach
     </select>
         </div>
-        <div class="noMargin large-3 medium-3 small-3 columns">
 
-    <button id="choose" name="submit">Choose</button>
-            </div>
+
+
 </form>
         </nav>
 
