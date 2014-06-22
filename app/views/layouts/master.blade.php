@@ -1,9 +1,10 @@
 <!doctype html>
 
-    <html>
+<html class="no-js" lang="en" >
 
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@yield('title')</title>
         <script src="js/vendor/modernizr.js"></script>
         <link href="css/foundation.min.css" type="text/css" rel="stylesheet"/>

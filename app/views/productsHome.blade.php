@@ -6,7 +6,8 @@ Procucts - Ceramics
 @section('content')
 <br>
 <h1>Products</h1>
-
+<h3><em>We are not yet open for business.
+        All of our product images are dummies.</em></h3>
 
 
 
@@ -17,6 +18,7 @@ Procucts - Ceramics
     </div>
 
     <div class="noMargin large-3 medium-3 small-3 columns">
+
     <select name="id_category">
         @foreach($categories as $category)
         <option value="{{ $category->id_category }}">{{ $category->category }}</option>
@@ -54,6 +56,7 @@ Procucts - Ceramics
 
 @foreach($products as $product)
 <div class="large-4 medium-4 small-12 columns panel">
+    <p><em>Dummy Image</em></p>
 <p>
     <a href="./products?product_id={{ $product->product_id }}">
 

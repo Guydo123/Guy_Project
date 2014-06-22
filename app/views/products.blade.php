@@ -5,11 +5,14 @@ products
 @stop
 @section('content')
 <h1>Products</h1>
+<h3><em>We are not yet open for business.
+        All of our product images are dummies.</em></h3>
 @foreach($product as $product)
 <div class="columns panel">
     <div class="large-6 medium-6 small-12 columns panel">
 <h3>{{ $product->title }}</h3>
         <div>
+            <p><em>Dummy Image</em></p>
         <a class="single_image"  href="img/lightbox/{{ $product->pic }}" title="{{ $product->title }}">
 <p><img src="img/thumbs/{{ $product->pic }}" alt="{{ $product->title }}" width="400" /></p>
             </a></div>

@@ -38,8 +38,8 @@ Welcome to Bugz &amp; Beastiez
     </li>
 </ul>
 
-
 <h2>Welcome to Bugz and Beastiez</h2>
+
 <div class="columns panel">
 
 <div class="large-6 medium-6 columns ">
@@ -66,42 +66,46 @@ Welcome to Bugz &amp; Beastiez
 
 <div class="productsHome">
 <h3>Products</h3>
+    <h4><em>We are not yet open for business.
+            All of our product images are dummies.</em></h4>
     <div class="row">
         <div class="Large-12 medium-12 columns panel">
-<div class="large-3 medium-3 small-6 columns panel">
+<div class="large-3 medium-3 small-12 columns panel">
     <a href="./productsHome">
         <h4>Ceramics</h4>
 
         <div class="cycle-slideshow">
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mugBee.gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/plateSpringBok.gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/plateBull.gif" alt="Dummy" />
             </div>
 
         <p class="caption">Brighten up your dining with
             our collection of plates, mugs and bowles.</p></a>
 
 </div>
-<div class="large-3 medium-3 small-6 columns panel">
+<div class="large-3 medium-3 small-12 columns panel">
     <a href="./comingSoon">
         <h4>Tableware</h4>
         <div class="cycle-slideshow">
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-          </div>
+            <img class="homeProd" src="img/comingSoonOne.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonTwo.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonThree.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonFour.gif" alt="Dummy" />
+        </div>
 
     <p class="caption">Our tableware collection of coasters, mats, napkins, and aprons.</p></a>
 
 </div>
-<div class="large-3 medium-3 small-6 columns panel">
+<div class="large-3 medium-3 small-12 columns panel">
     <a href="./comingSoon">
     <h4>For Artists</h4>
 
         <div class="cycle-slideshow">
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-            <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonOne.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonTwo.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonThree.gif" alt="Dummy" />
+            <img class="homeProd" src="img/comingSoonFour.gif" alt="Dummy" />
        </div>
 
 
@@ -109,13 +113,14 @@ Welcome to Bugz &amp; Beastiez
 
 </div>
 
-        <div class="large-3 medium-3 small-6 columns panel">
+        <div class="large-3 medium-3 small-12 columns panel">
             <a href="./comingSoon">
                 <h4>Canvas</h4>
                 <div class="cycle-slideshow">
-                    <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-                    <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
-                    <img class="homeProd" src="img/thumbs/Mug2.gif" alt="Dummy" />
+                    <img class="homeProd" src="img/comingSoonOne.gif" alt="Dummy" />
+                    <img class="homeProd" src="img/comingSoonTwo.gif" alt="Dummy" />
+                    <img class="homeProd" src="img/comingSoonThree.gif" alt="Dummy" />
+                    <img class="homeProd" src="img/comingSoonFour.gif" alt="Dummy" />
                 </div>
 
 
@@ -132,7 +137,7 @@ Welcome to Bugz &amp; Beastiez
 <h3>News</h3>
 
     @foreach($news as $item)
-    <div class="small-6 columns panel">
+    <div class="large-6 medium-6 small-12 columns panel">
         <h3>{{ $item->headline }}</h3>
         <p>{{ $item->info }}</p>
     </div>
